@@ -1,0 +1,3 @@
+FROM mongodb:latest
+RUN apt-get update; apt-get -y install openssh-client
+CMD rm /keys/id_rsa*   
